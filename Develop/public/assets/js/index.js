@@ -33,6 +33,8 @@ const getNotes = () =>
     },
   });
 
+//This will actually post the note, but needs 
+// corresponding server.js code 
 const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
@@ -66,6 +68,7 @@ const renderActiveNote = () => {
   }
 };
 
+//Creates new note object
 const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,

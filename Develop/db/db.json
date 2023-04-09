@@ -1,6 +1,18 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "title": "Do dishes",
+        "text": "make em clean"
+    },
+    {
+        "title": "Do laundry",
+        "text": "Laundromat closed on Thursdays"
+    },
+    {
+        "title": "Make playlist",
+        "text": "for work"
     }
 ]

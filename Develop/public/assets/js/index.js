@@ -33,7 +33,7 @@ const getNotes = () =>
     },
   });
 
-//This will actually post the note, but needs 
+//This will actually post the note to db, but needs 
 // corresponding server.js code 
 const saveNote = (note) =>
   fetch('/api/notes', {

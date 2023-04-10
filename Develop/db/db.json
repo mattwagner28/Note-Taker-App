@@ -1,18 +1,7 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Do dishes",
-        "text": "make em clean"
-    },
-    {
-        "title": "Do laundry",
-        "text": "Laundromat closed on Thursdays"
-    },
-    {
-        "title": "Make playlist",
-        "text": "for work"
+        "title": "Tutor session",
+        "text": "Monday, 2pm ET",
+        "id": "2a48"
     }
 ]

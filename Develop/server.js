@@ -5,6 +5,7 @@ const util = require("util");
 
 // Helper method for generating unique ids
 const uuid = require('./helpers/uuid');
+const storage = require("./db/storage");
 
 const PORT = 3001;
 
@@ -70,6 +71,17 @@ app.post("/api/notes", (req, res) => {
     res.error("Error in adding note");
   }
 });
+
+
+
+
+
+app.delete("/api/notes/:id", (req, res) => {
+
+storage
+.removeNote(req.params.id).then(() => res.json({ok:true})).catch((err)=> res.status(500).json(err))
+
+})
 
 
 // listen() method is responsible for listening for incoming connections on the specified port

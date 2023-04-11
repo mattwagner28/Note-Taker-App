@@ -34,11 +34,13 @@ app.get('/api/notes', (req, res) => {
 // Promise version of fs.readFile
 const readFromFile = util.promisify(fs.readFile);
 
+//Function to save user input data to a file
 const writeToFile = (destination, content) =>
   fs.writeFile(destination, JSON.stringify(content, null, 4), (err) =>
     err ? console.error(err) : console.info(`\nData written to ${destination}`)
   );
 
+//Function that reads and parses the data to be written to a file location
 const readAndAppend = (content, file) => {
   fs.readFile(file, (err, data) => {
     if (err) {

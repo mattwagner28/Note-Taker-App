@@ -1,7 +1,17 @@
 [
-  {
-    "title": "Tutor session ",
-    "text": "Monday 2 pm",
-    "id": "bc3e"
-  }
+    {
+        "title": "Tutor session ",
+        "text": "Monday 2 pm",
+        "id": "bc3e"
+    },
+    {
+        "title": "Do bonus",
+        "text": "delete button\n",
+        "id": "7627"
+    },
+    {
+        "title": "Make snack",
+        "text": "chips and hummus",
+        "id": "8bc5"
+    }
 ]
